@@ -1,0 +1,78 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "单词学习"
+      }
+    },
+    {
+      "path": "pages/import/import",
+      "style": {
+        "navigationBarTitleText": "导入单词"
+      }
+    },
+    {
+      "path": "pages/practice/practice",
+      "style": {
+        "navigationBarTitleText": "单词背诵"
+      }
+    },
+    {
+      "path": "pages/dictation/dictation",
+      "style": {
+        "navigationBarTitleText": "单词听写"
+      }
+    },
+    {
+      "path": "pages/settings/settings",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "English Vocab",
+    "navigationBarBackgroundColor": "#4A90E2",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#4A90E2",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/import/import",
+        "iconPath": "static/images/import.png",
+        "selectedIconPath": "static/images/import-active.png",
+        "text": "导入"
+      },
+      {
+        "pagePath": "pages/practice/practice",
+        "iconPath": "static/images/practice.png",
+        "selectedIconPath": "static/images/practice-active.png",
+        "text": "背诵"
+      },
+      {
+        "pagePath": "pages/dictation/dictation",
+        "iconPath": "static/images/dictation.png",
+        "selectedIconPath": "static/images/dictation-active.png",
+        "text": "听写"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "iconPath": "static/images/settings.png",
+        "selectedIconPath": "static/images/settings-active.png",
+        "text": "设置"
+      }
+    ]
+  }
+}

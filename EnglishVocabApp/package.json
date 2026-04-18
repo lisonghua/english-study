@@ -1,0 +1,19 @@
+{
+  "name": "english-vocab-app",
+  "version": "1.0.0",
+  "description": "英文背单词手机APP - 帮助高中生轻松背单词",
+  "main": "main.js",
+  "scripts": {
+    "dev:app": "uni -p app-plus",
+    "build:app": "uni build -p app-plus"
+  },
+  "keywords": [
+    "uniapp",
+    "vocabulary",
+    "english",
+    "education"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
